@@ -1,0 +1,127 @@
+.content{
+    height: calc(100% - 40px);
+    overflow: hidden;
+}
+
+.content>div{
+    height: 100%;
+    padding: 5px;
+}
+.content>div>div{
+    border: rgba(121, 121, 121, 0.53) 1px solid;
+    background-color: rgba(255,255,255,.03);
+}
+.content .boxwrap>div{
+    height: calc(33.66666% - 10px - 20px);
+}
+.boxwrap>div:nth-child(1),.boxwrap>div:nth-child(2){
+    margin-bottom: 10px;
+}
+.mdbox>div:nth-child(2){
+    height: calc(100% - 50% - 5px);
+}
+.mdbox>div:nth-child(1){
+    height: calc(50% - 5px);
+    margin-bottom: 10px;
+}
+.box>div{
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.box>div{
+    width: calc(50% - 5px);
+    margin-top: 5px;
+    background-color: rgba(255,255,255,.08);
+    border-radius: 2px;
+    height: calc(50% - 10px);
+    /*margin-right: 5px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box>div>div:nth-child(1){
+    color: #008fff;
+    font-size: 1rem;
+    text-align: center;
+}
+.box>div>div:nth-child(2){
+    color: #008eff;
+    font-size: 1rem;
+    text-align: center;
+}
+.box>div>div:nth-child(1)>span{
+    color: #00ff00;
+    font-size: 1.4rem;
+}
+/*.content>div:nth-child(2){*/
+/*    margin-left: 5px;*/
+/*    margin-right: 5px;*/
+/*}*/
+/*.content>div:nth-child(1){*/
+
+/*}*/
+.mdbox>.box{
+    justify-content: space-around;
+}
+.mdbox>.box>div{
+    width: calc(33% - 15px);
+    height: calc(50% - 10px);
+    /*margin-top: 5px;*/
+}
+.table_zy{
+    padding: 10px;
+}
+.table_zy>div:nth-child(1){
+    height: 30px;
+    color: #008eff;
+    font-size: 0.9rem;
+    line-height: 30px;
+    padding-left: 5px;
+    background-color: #02003d;
+}
+.table_zy>div:nth-child(2){
+    margin-top: 5px;
+    height: calc(100% - 30px - 5px);
+}
+
+.layui-table-header .layui-table-cell{
+    height: 15px;
+    line-height: 15px;
+}
+.layui-table-col-set, .layui-table-fixed-r, .layui-table-grid-down, .layui-table-header, .layui-table-page, .layui-table-tips-main, .layui-table-tool, .layui-table-total, .layui-table-view, .layui-table[lay-skin=line], .layui-table[lay-skin=row]{
+    border: rgba(0,0,0,0);
+}
+.layui-table-header .layui-table-cell{
+    font-size: 0.6rem;
+}
+.layui-table{
+    background-color: #0d2552;
+    color: #e6e6e6;
+}
+.layui-table thead tr{
+    background-color: #434a47;
+}
+.layui-table-view .layui-table td{
+    border: none
+}
+.layui-table-view .layui-table th{
+    border: none;
+}
+.layui-table-header{
+    background-color: rgba(0,0,0,0);
+}
+.mdbox .coler{
+
+}
+.mdbox .coler>div{
+    height: 50%;
+}

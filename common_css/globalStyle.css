@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html,body{
+    height: 100%;
+}
+
+.wrap{
+    background-color: #001961;
+    height: calc(100% - 0px);
+}
+
+.boxtitle{
+    height: 25px;
+    color: #fff;
+    background-color: #000532;
+}

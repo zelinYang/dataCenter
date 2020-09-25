@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>实时监控-今日实时综合情况</title>
+    <link rel="stylesheet" href="../../UICommon/layui/css/layui.css">
+    <link rel="stylesheet" href="../.././common_css/globalStyle.css">
+    <link rel="stylesheet" href="../.././common_css/iconfont.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="../../UICommon/layui/layui.all.js"></script>
+    <script src="../../common_js/axios.min.js"></script>
+    <script src="../../common_js/echarts.min.js"></script>
+    <script src="../../common_js/jquery.min.js"></script>
+    <script src="../../common_js/vue.js"></script>
+</head>
+<body>
+<div id="el" class="layui-fluid wrap">
+    <div class="layui-row content">
+        <div class="layui-col-lg3 layui-col-md3 layui-col-sm3 layui-col-xs3 boxwrap">
+            <div class="box">
+                <div>
+                    <div><span>60%</span></div>
+                    <div>床位使用率</div>
+                </div>
+                <div>
+                    <div><span>600</span></div>
+                    <div>床位总数</div>
+                </div>
+                <div>
+                    <div><span>360</span></div>
+                    <div>占床位</div>
+                </div>
+                <div>
+                    <div><span>441</span></div>
+                    <div>在院人数</div>
+                </div>
+            </div>
+            <div class="box">
+
+            </div>
+            <div class="table_zy">
+                <div>在院人数分析</div>
+                <div>
+                    <div id="zaiyuanrenshu"></div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-col-lg6 layui-col-md6 layui-col-sm6 layui-col-xs6 mdbox" >
+            <div class="coler">
+                <div id="yaozhnbiyucaizhanbi"></div>
+                <div></div>
+            </div>
+            <div></div>
+        </div>
+        <div class="layui-col-lg3 layui-col-md3 layui-col-sm3 layui-col-xs3 boxwrap">
+            <div class="box">
+                <div>
+                    <div><span>12</span></div>
+                    <div>手术数量</div>
+                </div>
+                <div>
+                    <div><span>4</span></div>
+                    <div>门诊手术例数</div>
+                </div>
+                <div>
+                    <div><span>8</span></div>
+                    <div>住院手术例数</div>
+                </div>
+            </div>
+            <div class="box">
+
+            </div>
+            <div class="box"></div>
+        </div>
+    </div>
+</div>
+<script src="action.js"></script>
+<script></script>
+</body>
+</html>
